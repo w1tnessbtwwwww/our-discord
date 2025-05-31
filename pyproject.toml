@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "discord-bot"
+version = "0.1.0"
+description = ""
+authors = ["xxxw1tnessbtwxxx <89967499+xxxw1tnessbtwxxx@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13"
+sqlalchemy = "^2.0.41"
+pydantic = "^2.11.5"
+pydantic-settings = "^2.9.1"
+alembic = "^1.16.1"
+disnake = "^2.10.1"
+certifi = "^2025.4.26"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
